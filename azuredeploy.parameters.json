@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "azureadmin"
+    },
+    "adminPassword": {
+      "value": "azureadm@123"
+    },
+	"windowsOSVersion": {
+		"value": "2016-Datacenter"
+	},
+	"vmsize": {
+		"value": "standard_D2_v3"
+	},
+	"location": {
+		"value": "EastUS"
+	},
+    "dnsLabelPrefix": {
+      "value": "nextopswinrm"
+    }
+  }
+}
